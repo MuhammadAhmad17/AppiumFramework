@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.MuhammadAhmad.TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End to End Framework Test(failed)" verbose="0">
+    <classes>
+      <class name="org.MuhammadAhmad.eCommerce_tc_4_Hybrid">
+        <methods>
+          <include name="FillForm"/>
+          <include name="ConfigureAppium"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.MuhammadAhmad.eCommerce_tc_4_Hybrid -->
+    </classes>
+  </test> <!-- End to End Framework Test(failed) -->
+  <test thread-count="5" name="Error Validations Test(failed)" verbose="0">
+    <classes>
+      <class name="org.MuhammadAhmad.eCommerce_tc_1">
+        <methods>
+          <include name="FillForm_ErrorValidation"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+          <include name="preSetup"/>
+          <include name="FillForm_PositiveFlow"/>
+        </methods>
+      </class> <!-- org.MuhammadAhmad.eCommerce_tc_1 -->
+    </classes>
+  </test> <!-- Error Validations Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

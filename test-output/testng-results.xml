@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T12:47:57 PKT" name="Suite" finished-at="2024-06-11T12:49:14 PKT" duration-ms="76894">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_tc_4_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" name="FillForm" class="org.MuhammadAhmad.eCommerce_tc_4_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-11T12:47:57 PKT" name="End to End Framework Test" finished-at="2024-06-11T12:49:13 PKT" duration-ms="76546">
+      <class name="org.MuhammadAhmad.eCommerce_tc_4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:47:57 PKT" name="ConfigureAppium" finished-at="2024-06-11T12:48:12 PKT" duration-ms="15530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:48:12 PKT" name="preSetup" finished-at="2024-06-11T12:48:14 PKT" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:48:14 PKT" name="FillForm" data-provider="getData" finished-at="2024-06-11T12:48:43 PKT" duration-ms="29308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Muhammad Ahmad, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:48:43 PKT" name="preSetup" finished-at="2024-06-11T12:48:45 PKT" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:48:45 PKT" name="FillForm" data-provider="getData" finished-at="2024-06-11T12:49:13 PKT" duration-ms="28096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Muhammad, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.MuhammadAhmad.eCommerce_tc_4_Hybrid@41ab013]" started-at="2024-06-11T12:49:13 PKT" name="tearDown" finished-at="2024-06-11T12:49:13 PKT" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.MuhammadAhmad.eCommerce_tc_4_Hybrid -->
+    </test> <!-- End to End Framework Test -->
+    <test started-at="2024-06-11T12:49:14 PKT" name="Error Validations Test" finished-at="2024-06-11T12:49:14 PKT" duration-ms="1">
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
